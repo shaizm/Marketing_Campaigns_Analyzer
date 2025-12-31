@@ -1,4 +1,4 @@
-## 📊 Campaign Scoring & AI Analysis tool
+## 📊 Marketing Campaign Grading & AI Analysis tool
 
 An intelligent Streamlit application that evaluates marketing campaign performance using a weighted ranking algorithm and provides automated business insights via the Gemini 2.5 Flash LLM.
 
@@ -24,14 +24,12 @@ cd campaign-scoring-app
 ### Install dependencies:
 pip install -r requirements.txt
 
-Configure API Key:
+### Configure API Key:
 Create a .env file or set a Streamlit secret:
-
 GEMINI_API_KEY=your_api_key_here
 
 
-Run the App:
-
+### Run the App:
 streamlit run streamlit_app.py
 
 
