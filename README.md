@@ -28,33 +28,18 @@ pip install -r requirements.txt
 Create a .env file or set a Streamlit secret:
 GEMINI_API_KEY=your_api_key_here
 
-
 ### Run the App:
 streamlit run streamlit_app.py
 
-
-📊 Data Input Format
-
+### 📊 Data Input Format
 The app expects a CSV file with the following columns:
-
 Campaign: Name of the campaign
-
 Total Spend: Marketing spend in currency
-
 Total Leads: Number of leads generated
-
 Total Sales: Number of conversions/sales
-
 Revenue (incl. GST): Total revenue generated
 
-🛡️ Data Privacy
-
+### 🛡️ Data Privacy
 This app prioritizes data security. By enabling Masking, the app:
-
 Replaces campaign names with generic identifiers (e.g., Campaign 1).
-
 Scales financial values by a non-integer factor to hide absolute numbers while preserving performance ratios for the AI's analysis.
-
-📝 License
-
-Distributed under the MIT License. See LICENSE for more information.
