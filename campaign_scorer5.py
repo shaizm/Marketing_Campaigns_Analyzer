@@ -4,8 +4,8 @@ import numpy as np
 import os
 import google.genai as genai
 
-st.set_page_config(page_title="Campaign Scoring App", layout="wide")
-st.title("📊 Campaign Scorer & Analyser")
+st.set_page_config(page_title="Campaign Analysing Tool", layout="wide")
+st.title("📊 Campaign Grading & Analyser")
 st.markdown("Upload your campaign data (CSV with columns: `Campaign`, `Total Spend`, `Total Leads`, `Total Sales`, `Revenue (incl. GST)`)")
 
 # --- API Key Configuration ---
@@ -220,3 +220,4 @@ if uploaded_file:
             """,
             unsafe_allow_html=True
         )
+
