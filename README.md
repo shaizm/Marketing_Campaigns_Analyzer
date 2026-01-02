@@ -1,6 +1,6 @@
 ## 📊 Marketing Campaign Grading & AI Analysis tool
 
-An intelligent Streamlit application that evaluates marketing campaign performance using a weighted ranking algorithm and provides automated business insights via the Gemini 2.5 Flash LLM.
+An intelligent Streamlit application that evaluates marketing campaign performance using a weighted ranking algorithm and provides automated business insights via the Gemini.
 
 ### 🚀 Key Features:
 * Multi-Metric Scoring: Calculates ROI, ROAS, CPL, CPA, and Conversion Rates.
