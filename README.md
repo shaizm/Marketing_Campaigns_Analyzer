@@ -40,6 +40,6 @@ Total Sales: Number of conversions/sales
 Revenue (incl. GST): Total revenue generated
 
 ### 🛡️ Data Privacy
-This app prioritizes data security. By enabling Masking, the app:
+By enabling Masking, the app:
 Replaces campaign names with generic identifiers (e.g., Campaign 1).
 Scales financial values by a non-integer factor to hide absolute numbers while preserving performance ratios for the AI's analysis.
