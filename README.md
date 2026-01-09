@@ -29,7 +29,7 @@ Create a .env file or set a Streamlit secret:
 GEMINI_API_KEY=your_api_key_here
 
 ### Run the App:
-streamlit run streamlit_app.py
+streamlit run campaign_Analyzer.py
 
 ### 📊 Data Input Format
 The app expects a CSV file with the following columns:
