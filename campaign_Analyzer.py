@@ -8,7 +8,7 @@ st.set_page_config(page_title="Campaign Analysing Tool", layout="wide")
 st.title("📊 Campaign Grading & Analyser")
 st.markdown("Upload your campaign data (CSV with columns: `Campaign`, `Total Spend`, `Total Leads`, `Total Sales`, `Revenue (incl. GST)`)")
 
-# --- API Key Configuration ---
+# -- API Key Configuration --
 api_key = st.secrets.get("GEMINI_API_KEY") or os.environ.get("GEMINI_API_KEY")
 llm_enabled = False
 
