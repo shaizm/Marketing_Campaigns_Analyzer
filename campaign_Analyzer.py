@@ -69,7 +69,7 @@ if uploaded_file:
                                          where=df["Total Leads"]!=0, out=np.full_like(df["Revenue (incl. GST)"], np.nan)).round(2)
 
         
-        # Metric weights (Based on our discussion)
+        # Metric weights 
         weights = {
             "ROI": 40,
             "Revenue (incl. GST)": 30,
@@ -120,7 +120,7 @@ if uploaded_file:
         numeric_cols = df_sorted.select_dtypes(include=np.number).columns.tolist()
         format_dict = {col: "{:.2f}" for col in numeric_cols}
 
-        # Display the ranked table using explicit formatting and background gradient
+        # Display the ranked table
         styled = df_sorted.style \
             .format(format_dict) \
             .background_gradient(subset=["Campaign Score (0–100)"], cmap="RdYlGn")
